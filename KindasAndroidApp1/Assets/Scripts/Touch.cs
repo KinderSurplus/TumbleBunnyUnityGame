@@ -29,6 +29,11 @@ public class Touch : MonoBehaviour
         player.moveright = false;
     }
 
+    public void Jump()
+    {
+        player.jump = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
